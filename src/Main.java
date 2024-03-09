@@ -50,6 +50,6 @@ public class Main {
         byte time = 2;
         int bottlesInOneMinutes = bottlesInTwoMinutes / time;
         System.out.println("Производительность машины для изготовления бутылок — " + bottlesInOneMinutes + " бутылок за минуту.");
-        int
+
     }
 }
