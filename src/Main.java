@@ -50,6 +50,16 @@ public class Main {
         byte time = 2;
         int bottlesInOneMinutes = bottlesInTwoMinutes / time;
         System.out.println("Производительность машины для изготовления бутылок — " + bottlesInOneMinutes + " бутылок за минуту.");
-
+        int bottles20 = bottlesInOneMinutes * 20;
+        System.out.println("За 20 минут машина произвела " + bottles20 + " штук бутылок.");
+        int day = 24 * 60;
+        int bottlesDay = bottlesInOneMinutes * day;
+        System.out.println("За сутки машина произвела " + bottlesDay + " штук бутылок.");
+        int day3 = day * 3;
+        int bottlesDay3 = bottlesInOneMinutes * day3;
+        System.out.println("За 3 дня машина произвела " + bottlesDay3 + " штук бутылок.");
+        int month = day * 31;
+        int bottlesMonth = bottlesInOneMinutes * month;
+        System.out.println("За месяц машина произвела " + bottlesMonth + " штук бутылок.");
     }
 }
